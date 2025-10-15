@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">guia8</string>
+
+    <string name="titulo_lista">Personas registradas</string>
+    <string name="agregar">Agregar</string>
+    <string name="guardar">Guardar</string>
+    <string name="editar">Editar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="dui">DUI</string>
+    <string name="nombre">Nombre</string>
+    <string name="nueva_persona">Nueva persona</string>
+    <string name="editar_persona">Editar persona</string>
+    <string name="sin_datos">Aún no hay personas</string>
+</resources>

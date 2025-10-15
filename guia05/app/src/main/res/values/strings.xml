@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">guia05</string>
+
+    <string-array name="dish_names">
+        <item>Hamburguesa Clásica</item>
+        <item>Papas Fritas</item>
+        <item>Taco de Pollo</item>
+        <item>Refresco</item>
+    </string-array>
+    <string-array name="dish_descriptions">
+        <item>Jugosa hamburguesa con queso, lechuga y tomate.</item>
+        <item>Crujientes papas doradas, servidas calientes.</item>
+        <item>Taco de pollo sazonado con cebolla y cilantro.</item>
+        <item>Refresco de 350 ml.</item>
+    </string-array>
+    <string-array name="dish_prices">
+        <item>$3.50</item>
+        <item>$1.50</item>
+        <item>$2.00</item>
+        <item>$0.80</item>
+    </string-array>
+    <!-- Nombres de las imágenes (sin extensión) -->
+    <string-array name="dish_images">
+        <item>hamburguesa</item>
+        <item>papas</item>
+        <item>taco</item>
+        <item>refresco</item>
+    </string-array>
+</resources>

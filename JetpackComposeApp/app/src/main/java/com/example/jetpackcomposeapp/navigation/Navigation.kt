@@ -9,13 +9,10 @@ import androidx.navigation.compose.composable
 import androidx.navigation.NavHostController
 import androidx.navigation.NavType
 import androidx.navigation.navArgument
-import com.example.jetpackcomposeapp.ui.theme.screens.CarreraDetailScreen
-
+import com.example.jetpackcomposeapp.ui.screens.CarreraDetailScreen
 import com.example.jetpackcomposeapp.viewmodel.CarrerasViewModel
-import com.example.jetpackcomposeapp.ui.theme.screens.CarrerasListScreen
-import com.example.jetpackcomposeapp.ui.theme.screens.MateriaDetailScreen
-
-
+import com.example.jetpackcomposeapp.ui.screens.CarrerasListScreen
+import com.example.jetpackcomposeapp.ui.screens.MateriaDetailScreen
 sealed class Screen(val route: String) {
     object Home : Screen("home")
     object Carrera : Screen("carrera/{carreraName}") {
@@ -70,4 +67,3 @@ fun AppNavHost(navController: NavHostController) {
         }
     }
 }
-
